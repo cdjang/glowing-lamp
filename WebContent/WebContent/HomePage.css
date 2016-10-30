@@ -33,7 +33,7 @@ html,
 body {
 /*css for full size background image*/
   /*background: url(http://p1.pichost.me/i/66/1910819.jpg) no-repeat center center fixed; */
-  background: url(http://www.ccclarion.com/wp-content/uploads/2015/09/IMG_0180.jpg) no-repeat center center fixed; 
+  background: url(https://static1.squarespace.com/static/5511b2cee4b09be45a553df0/t/5514824fe4b01178dd79d866/1427407469387/Pomona_Campus.jpg?format=1500w) no-repeat center center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -130,6 +130,7 @@ body {
 	color: white;
     padding: 20px 40px; /*how big the button is for learn more*/
     font-size: 30px;
+    text-decoration: none;
 }
 
 

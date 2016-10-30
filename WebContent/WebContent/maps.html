@@ -1,20 +1,36 @@
-<div class="container">
-	<div class="row-fluid">
-        <div class="span8">
-        	<iframe width="100%" height="350" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.co.uk/maps?f=q&source=s_q&hl=en&geocode=&q=15+Springfield+Way,+Hythe,+CT21+5SH&aq=t&sll=52.8382,-2.327815&sspn=8.047465,13.666992&ie=UTF8&hq=&hnear=15+Springfield+Way,+Hythe+CT21+5SH,+United+Kingdom&t=m&z=14&ll=51.077429,1.121722&output=embed"></iframe>
-    	</div>
-    	
-      	<div class="span4">
-    		<h2>Snail mail</h2>
-    		<address>
-    			<strong>Hythe Window Cleaning</strong><br>
-    			15 Springfield Way<br>
-    			Hythe<br>
-    			Kent<br>
-    			United Kingdon<br>
-    			CT21 5SH<br>
-    			<abbr title="Phone">P:</abbr> 01234 567 890
-    		</address>
-    	</div>
-    </div>
+<link rel="stylesheet" type="text/css" href="Maps.css">
+
+<!DOCTYPE html>
+<html>
+<body>
+
+<script src="Maps.js"></script>
+<div class="dropdown">
+  <button onclick="myFunction()" class="dropbtn"><strong>Filter Your Search!</strong></button>
+  <div id="myDropdown" class="dropdown-content">
+    <a href="#" id="Bathrooms"><strong>Bathrooms</strong></a>
+    <a href="#"><strong>Water Stations</strong></a>
+    <a href="#" id="Microwaves"><strong>Microwaves</strong></a>
+  </div>
 </div>
+
+
+
+<h1>
+	<style>
+		body {background-color: #FFFED3;}
+		h1   {color: #13640E; text-shadow: 1px 1px yellow; font-size: 45px;}
+	</style>
+	Cal Poly Pomona Campus Map
+</h1>
+
+<div id="map" style="width:65%;height:500px; outline: #ffffff solid thick;"></div>
+
+<!-- the mymap function went here -->
+
+
+<script src="https://maps.googleapis.com/maps/api/js?callback=myMap"></script>
+<script src="myscripts.js"></script>
+
+</body>
+</html>
